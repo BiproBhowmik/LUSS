@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacgroundcolor"
+    tools:context=".MakeQuestion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Share your post publicly..."
+                android:fontFamily="@font/insomnia_regular"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Note : Image upload is not mendatory"
+                android:fontFamily="@font/josefinsans_bolditalic"
+                android:textColor="@color/bttomColor2"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/pictureUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_picture_upload"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/titleID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Title..."
+                android:fontFamily="@font/josefinsans_bolditalic"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/decID"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Discription...."
+                android:fontFamily="@font/josefinsans_bolditalic"
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="S u b m i t"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/days_later"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/viewPosts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="View All Public Posts"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:background="@drawable/mybutton2"
+                android:fontFamily="@font/days_later"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

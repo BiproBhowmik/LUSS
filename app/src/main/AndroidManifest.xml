@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lubussupporter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ValidIDAdd"></activity>
+        <activity
+            android:name=".ChangeAP"
+            android:parentActivityName=".AdminPanel" />
+        <activity
+            android:name=".AdminPanel"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".BusScheduleExamAdd"
+            android:parentActivityName=".BusScheduleExam" />
+        <activity
+            android:name=".BusScheduleExam"
+            android:parentActivityName=".BusSchedule" />
+        <activity
+            android:name=".BusScheduleRegularAdd"
+            android:parentActivityName=".BusScheduleRegular" />
+        <activity
+            android:name=".BusScheduleRegular"
+            android:parentActivityName=".BusSchedule" />
+        <activity
+            android:name=".BusSchedule"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".RulesAdd"
+            android:parentActivityName=".Rules" />
+        <activity
+            android:name=".Rules"
+            android:parentActivityName=".Home" />
+        <activity android:name=".NoticeLargeView" />
+        <activity
+            android:name=".Feedback"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".AppSetting"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".EmergencyAdd"
+            android:parentActivityName=".EmergencyView" />
+        <activity
+            android:name=".EmergencyView"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".NoticeAdd"
+            android:parentActivityName=".NoticeView" />
+        <activity
+            android:name=".NoticeView"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".GroupMessage"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".ComplainView"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".QuestionLargeView"
+            android:parentActivityName=".QuestionsViewer" />
+        <activity
+            android:name=".AboutDevs"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".ComplainSend"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".QuestionsViewer"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".MakeQuestion"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:parentActivityName=".Login" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

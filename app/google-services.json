@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367894344094",
+    "firebase_url": "https://lubussupporter.firebaseio.com",
+    "project_id": "lubussupporter",
+    "storage_bucket": "lubussupporter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367894344094:android:62b05f332183dbf9",
+        "android_client_info": {
+          "package_name": "com.example.lubussupporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367894344094-7rfagln7ii5edeqnes55tkj8ubv96qsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lubussupporter",
+            "certificate_hash": "7d20f9c3575902451c26966f7ecbe7086227cd52"
+          }
+        },
+        {
+          "client_id": "367894344094-rg4e7gihs63hfml55sv4s11o6terrcng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVQSBW1t3BTUKyn9w2PSxGkuIOYGTlsoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367894344094-rg4e7gihs63hfml55sv4s11o6terrcng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

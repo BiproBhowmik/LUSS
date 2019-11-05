@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacgroundcolor"
+    tools:context=".NoticeAdd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Add notice by the Admin"
+                android:textColor="@color/bttomColor2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Note : Image upload is not mendatory"
+                android:textColor="@color/bttomColor2"
+                android:textStyle="bold"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/noticePictureUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_picture_upload"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/noticeTitleID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Notice Title..."
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/noticeDecID"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Details about the Notice..."
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/noticeSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mybutton"
+                android:text="Add Notice"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

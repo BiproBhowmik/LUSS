@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appSettingAC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppSetting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/settingBtnBringal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/settingBtnGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bttomColor2" />
+
+        <Button
+            android:id="@+id/settingBtnPink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bttomColor" />
+
+        <Button
+            android:id="@+id/settingBtnDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/settingBtnWhide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/whide" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/days_later"
+            android:text="Setting will be more attractive in next update"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

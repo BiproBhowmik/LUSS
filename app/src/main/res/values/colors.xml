@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#35C585</color>
+    <color name="colorPrimaryDark">#0F995D</color>
+    <color name="colorAccent">#D4D4D4</color>
+    <color name="bttomColor">#FF1E50</color>
+    <color name="bttomColor2">#1AB16F</color>
+    <color name="whide">#ffff</color>
+    <color name="whidelowAC">#80FFFFFF</color>
+    <color name="bacgroundcolor">#E9EBEE</color>
+</resources>
